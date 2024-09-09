@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Settings</title>
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>My Social Network</h1>
+        <nav>
+            <ul>
+                <li><a href="feed.html">Feed</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="settings-container">
+        <h2>Account Settings</h2>
+        
+        <section class="settings-section">
+            <h3>Personal Information</h3>
+            <form id="personal-info-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" value="CurrentUsername">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="user@example.com">
+                
+                <button type="submit" class="action-button">Save Changes</button>
+            </form>
+        </section>
+        
+        <section class="settings-section">
+            <h3>Change Password</h3>
+            <form id="password-form">
+                <label for="current-password">Current Password:</label>
+                <input type="password" id="current-password" name="current-password">
+                
+                <label for="new-password">New Password:</label>
+                <input type="password" id="new-password" name="new-password">
+                
+                <label for="confirm-password">Confirm New Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password">
+                
+                <button type="submit" class="action-button">Change Password</button>
+            </form>
+        </section>
+        
+        <section class="settings-section">
+            <h3>Account Management</h3>
+            <button class="action-button">Deactivate Account</button>
+            <button class="action-button">Delete Account</button>
+        </section>
+    </main>
+    <script src="../scripts/main.js"></script>
+</body>
+</html>

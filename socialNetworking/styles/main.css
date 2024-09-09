@@ -1,0 +1,184 @@
+/* General Reset */
+body, h1, h2, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the content */
+}
+
+/* Button Container Styling */
+.button-container {
+    margin-top: 30px;
+}
+
+/* Button Styling */
+.action-button {
+    background-color: #007BFF; /* Primary color */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover Effect */
+.action-button:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Center Buttons */
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/*profile editing
+/* Profile Page Container */
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Profile Header Section */
+.profile-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Profile Posts Section */
+.profile-posts {
+    width: 100%;
+    max-width: 600px;
+}
+
+.profile-posts h3 {
+    margin-bottom: 20px;
+}
+
+.post {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Post Actions (Like, Comment Buttons) */
+.post-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* Feed Page Container */
+.feed-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Create Post Section */
+.create-post {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.post-input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.create-post button {
+    width: 100%;
+}
+
+/* Feed Posts Section */
+.feed-posts {
+    width: 100%;
+    max-width: 600px;
+}
+
+.feed-posts h3 {
+    margin-bottom: 10px;
+}
+
+.feed-posts .post {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Post Actions (Like, Comment Buttons) */
+.feed-posts .post-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}

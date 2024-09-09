@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Feed</title>
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>My Social Network</h1>
+        <nav>
+            <ul>
+                <li><a href="feed.html">Feed</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="feed-container">
+        <section class="create-post">
+            <textarea placeholder="What's on your mind?" class="post-input"></textarea>
+            <button class="action-button">Post</button>
+        </section>
+
+        <section class="feed-posts">
+            <!-- Example Post -->
+            <div class="post">
+                <h3>Username</h3>
+                <p>This is an example post. Users can share their thoughts here.</p>
+                <div class="post-actions">
+                    <button class="action-button">Like</button>
+                    <button class="action-button">Comment</button>
+                </div>
+            </div>
+            <!-- Repeat the .post div for additional posts -->
+        </section>
+    </main>
+    <script src="../scripts/main.js"></script>
+</body>
+</html>
